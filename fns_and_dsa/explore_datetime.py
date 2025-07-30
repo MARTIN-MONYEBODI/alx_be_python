@@ -11,4 +11,4 @@ def calculate_future_date():
     future_date = display_current_datetime() + datetime.timedelta(days=number_of_days)
     return future_date
 
-print("Future Date:", calculate_future_date())
+print("Future Date:", calculate_future_date(YYYY-MM-DD))
